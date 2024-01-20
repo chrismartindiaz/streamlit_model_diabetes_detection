@@ -74,3 +74,7 @@ if st.button('Comprobar'):
         prediction = "positivo"
     
     st.text(f"Usted es {prediction} en presentar principios de diabetes")
+
+# End
+st.divider()
+st.caption('Una idea original de Christian Martín Díaz ©')
