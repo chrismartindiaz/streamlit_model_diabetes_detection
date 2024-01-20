@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-clf = joblib.load("./diabetes_model.pkl")
+clf = joblib.load("./model/diabetes_model.pkl")
 
 page_bg_img = """
 [data-testid="stAppViewContainer") {
