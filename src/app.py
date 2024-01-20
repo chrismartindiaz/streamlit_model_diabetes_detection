@@ -4,9 +4,6 @@ import joblib
 
 clf = joblib.load("./model/diabetes_model.pkl")
 
-
-st.markdown(page_bg_img, unsafe_allow_html=True)
-
 st.title('Anticípate a la Diabetes!')
 
 col1, col2, col3, col4 = st.columns(4)
