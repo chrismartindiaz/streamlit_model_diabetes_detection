@@ -5,9 +5,9 @@ import joblib
 clf = joblib.load("./model/diabetes_model.pkl")
 
 
-st.sidebar.image("diabetes.png", use_column_width=True)
-st.sidebar.image("diabetesdoc.png", use_column_width=True)
-st.sidebar.image("diabetes3.png", use_column_width=True)
+st.sidebar.image("./src/diabetes.png", use_column_width=True)
+st.sidebar.image("./src/diabetesdoc.png", use_column_width=True)
+st.sidebar.image("./src/diabetes3.png", use_column_width=True)
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
