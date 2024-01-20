@@ -4,6 +4,10 @@ import joblib
 
 clf = joblib.load("./model/diabetes_model.pkl")
 
+st.sidebar.image("./src/diabetes.png", use_column_width=True)
+st.sidebar.image("./src/diabetesdoc.jpg", use_column_width=True)
+st.sidebar.image("./src/diabetes3.png", use_column_width=True)
+
 st.title('Anticípate a la Diabetes!')
 
 col1, col2, col3, col4 = st.columns(4)
