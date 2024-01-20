@@ -5,9 +5,6 @@ import joblib
 clf = joblib.load("./model/diabetes_model.pkl")
 
 
-st.sidebar.image("./src/diabetes.png", use_column_width=True)
-
-
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title('Anticípate a la Diabetes!')
