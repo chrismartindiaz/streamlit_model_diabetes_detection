@@ -1,1 +1,1 @@
-"# streamlit_model_diabetes_detection" 
+A prediction model that tries to detect if someone has early diabetes symtoms or not.
